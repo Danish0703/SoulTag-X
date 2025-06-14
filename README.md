@@ -100,5 +100,81 @@ Enable **on-demand tokenization** of identity-linked credentials using smart con
 3. View SoulTags and their associated metadata
 ![Screenshot (71)](https://github.com/user-attachments/assets/d84c8418-523f-459c-9d85-de108f172cb3)
 
+## 📦 How to Use
 
+### 👨‍💻 For Developers
 
+- Integrate the smart contract methods like `get_metadata()`, `has_tag()`, and `reissue()` into your dApp to manage identity-based access, badges, or certifications.
+- Extend or customize contract logic to add features like:
+  - Expiring tags
+  - NFT skin overlays
+  - Revocable access tokens
+- Easily retrieve metadata for any tag using the ABI methods and display ARC-53-compliant visuals.
+
+---
+
+### 🧭 For Wallets & Explorers
+
+- Use `has_tag(tag_type, address)` and `get_metadata(tag_type)` to:
+  - Show which verified tags a user holds
+  - Display tag info like badge image, type, and description
+- Verify identities in a decentralized, read-only way — ideal for integration into DAO dashboards or wallet profiles.
+
+---
+
+### 🏢 For Issuers / Certifying Bodies
+
+- Use SoulTag X to issue non-transferable proof-of-participation, KYC verification, certifications, or role-based tokens.
+- Customize tags with your branding via ARC-53 metadata hosted on IPFS.
+- Manage issuance securely using a **2-of-3 multisig admin flow**.
+
+---
+
+# 🤝 Contributing to SoulTag X
+
+Thank you for considering a contribution to **SoulTag X**!  
+We welcome bug reports, feature requests, and code contributions to help improve the future of decentralized identity on Algorand.
+
+---
+
+## 🧰 Project Setup
+
+### Requirements
+
+- Python 3.10+
+- Node.js v18+
+- AlgoKit CLI (v2+)
+- Algorand Wallet (TestNet or LocalNet)
+- IPFS account (e.g. Pinata, NFT.storage)
+
+---
+
+## 📦 How to Contribute
+
+### 1. Fork the Repository
+
+### 2. Clone Your Fork
+
+### 3. Create a Feature Branch
+
+### 4. Make Changes
+
+### 5. Commit Your Changes
+
+### 6. Push Your Branch
+
+### 7. Submit a Pull Request
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License.
+Feel free to use, modify, or fork for your own identity, badge, or credentialing use case.
+
+---
+
+## 📬 Contact
+
+For collaboration or questions, reach out:
+
+* Email: thatsdanish02@gmail.com
