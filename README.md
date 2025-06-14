@@ -8,8 +8,7 @@
 
 ## 🔧 Project Status
 
-🚧 This project is currently under development for the **Algorand Live Hack: Tokenization Challenge**. The code, contracts, and frontend are being actively built and tested.  
-> ✅ This README will be updated with finalized logic, screenshots, and deployment steps upon completion.
+-Ready to use
 
 ---
 
@@ -57,4 +56,49 @@ Enable **on-demand tokenization** of identity-linked credentials using smart con
 - 🎖️ Loyalty & Achievement Tokens  
 
 ---
+## 🌐 How to Use
+
+![Screenshot (61)](https://github.com/user-attachments/assets/3ee25a8f-d62b-459f-abab-b41fc63696c5)
+
+### 🔑 As an Admin
+![Screenshot (62)](https://github.com/user-attachments/assets/637e5200-1a32-45d4-8525-1d88c875fc79)
+
+1. Connect wallet (must be a registered admin)
+![Screenshot (63)](https://github.com/user-attachments/assets/064e141f-4513-47fb-9f1b-1962621176af)
+
+2. Go to **Admin Panel**
+
+![Screenshot (64)](https://github.com/user-attachments/assets/97109430-26b7-47ba-a0eb-782c769e2355)
+
+3. Propose a tag (e.g. `Developer`, `DAO`, etc.)
+![Screenshot (66)](https://github.com/user-attachments/assets/21fcc5a7-fcfa-4f19-bd8a-0ce9f0c40c9b)
+
+4. Execute the mint to deliver the tag
+
+![Screenshot (68)](https://github.com/user-attachments/assets/625e0b1d-b9c9-4425-9a5d-132c3aca2ef7)
+
+
+---
+
+### 👤 As a User
+
+1. Connect wallet
+2. View your issued tags
+3. Request a reissue (only one per 30 days per tag)
+![Screenshot (69)](https://github.com/user-attachments/assets/12639bf1-9cf6-4209-8f59-a30d36d459d8)
+
+4. View your tag metadata and public verification
+
+---
+
+### 🔍 As a Verifier
+
+1. Navigate to `/verify`
+![Screenshot (70)](https://github.com/user-attachments/assets/7079006e-b436-4032-b37d-edda49781105)
+
+2. Enter any Algorand wallet address
+3. View SoulTags and their associated metadata
+![Screenshot (71)](https://github.com/user-attachments/assets/d84c8418-523f-459c-9d85-de108f172cb3)
+
+
 
