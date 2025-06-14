@@ -13,7 +13,7 @@ user_ts_key_prefix = Bytes("uts_")    # local: uts_<type> → last reissue ts
 propose_key_prefix = Bytes("prop_")   # global: prop_<type> → (metadata)
 approval_key_prefix = Bytes("apprv_") # global: apprv_<type>_<admin> → 1/0
 
-admin_1 = Addr("YOUR_ADMIN_1_ADDRESS")  
+admin_1 = Addr("2GBF7LHEBUHPBUHWYKVDFQWS3WG2PJYK3M2YASLV3CALVMS65USW57LYTQ")  
 admin_2 = Addr("YOUR_ADMIN_2_ADDRESS")
 admin_3 = Addr("YOUR_ADMIN_3_ADDRESS")
 
