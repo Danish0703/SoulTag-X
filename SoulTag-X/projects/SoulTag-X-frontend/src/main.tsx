@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './styles/App.css'
-import ErrorBoundary from './components/ErrorBoundary'
+import './App.css'
+import { WalletProvider } from './context/WalletContext'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ErrorBoundary>
+    <WalletProvider>
       <App />
-    </ErrorBoundary>
-  </React.StrictMode>,
+    </WalletProvider>
+  </React.StrictMode>
 )

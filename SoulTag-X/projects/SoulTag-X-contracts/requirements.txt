@@ -1,0 +1,4 @@
+algokit-utils
+beaker
+py-algorand-sdk
+python-dotenv
